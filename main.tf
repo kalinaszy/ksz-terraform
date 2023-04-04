@@ -3,7 +3,7 @@ resource "google_storage_bucket" "dareit-tf_3" {
   location = "us-central1"
 }
 
-resource "google_compute_instance" "dareit-vm-ci" {
+resource "google_compute_instance" "dareit-vm-ci_3" {
   name         = "dareit-vm-tf-ci_3"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
