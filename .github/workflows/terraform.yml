@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
     - feat/add-bucket
+    - master
 
 jobs:
   terraform:
